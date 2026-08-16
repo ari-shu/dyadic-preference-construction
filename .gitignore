@@ -1,0 +1,16 @@
+.DS_Store
+*.pdf
+*.docx
+*.doc
+*.tmp
+*.log
+
+# Raw interaction transcripts may contain personal information.
+transcripts/
+raw_data/
+
+# Local analysis artifacts.
+__pycache__/
+.venv/
+*.pyc
+
