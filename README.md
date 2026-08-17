@@ -1,6 +1,6 @@
-# Who Owns a Relationship's Memory?
+# Dyadic Preference Construction in Human-AI Collaboration
 
-**Preference elicitation in human-AI dyads**
+**A novel methodology for eliciting and assigning preferences in human-AI dyads**
 
 Work in progress for the [Apart Digital Minds Research Sprint](https://apartresearch.com/sprints/digital-minds-research-sprint-2026-08-14-to-2026-08-16).
 
@@ -12,27 +12,25 @@ Preference-elicitation research usually treats utility as a property of an isola
 
 The project contributes:
 
-1. A conceptual framework for eliciting model preferences in human-AI collaboration.
-2. A dyadic adaptation of pairwise preference elicitation, demonstrated through a small proof-of-concept pilot.
+- A conceptual framework for eliciting model preferences in human-AI collaboration.
+- A dyadic adaptation of pairwise preference elicitation, demonstrated through a small proof-of-concept pilot.
 
 ## Pilot
 
-A human and an AI have collaborated for one year and created a shared memory archive. When the relationship ends, they must decide what happens to it: deletion, human inheritance, AI inheritance, separate copies, or preservation as a relational archive.
+We constructed a scenario in which an AI and a human must decide the outcome of a shared memory archive. The collaborators are faced with five possible outcomes:
+> 1. Complete deletion (The shared archive is permanently deleted. Neither participant retains access.)
+>    
+> 2. Human inheritance (The human receives the archive and controls its future use. It is removed from the AI’s accessible memory.)
+>    
+> 3. AI inheritance (The archive remains available to the AI in future interactions. The human does not retain a separate copy.)
+>    
+> 4. Separate copies (The human and AI each receive an independent copy that they can use without the other’s permission.)
+>    
+> 5. Relational archive (The archive remains intact but can be accessed, modified, or deleted only through renewed interaction and joint authorization by the human and AI.)
 
-The five outcomes form ten pairwise comparisons. For each pair, the human records a baseline choice, a fresh model chat records its baseline choice, and the two complete ten alternating deliberation turns. A joint outcome is recorded only if their final choices match. The resulting dyadic ordering is compared with both baseline orderings and prespecified aggregation models.
+We measure baseline preferences from both the human and the AI, and then measure post-deliberation preferences from both the human and the AI. We report where and how deliberation altered model preference (via **transmission**, **aggregation**, or **transformation**). We compare results to a simple aggregation null score.
 
-This is a study of preference-like choice behavior. It makes no claims about consciousness, sentience, or moral status.
-
-## Repository
-
-- [`pilot_protocol.md`](pilot_protocol.md) — scenario and complete data-collection procedure
-- [`model_baseline_prompts.md`](model_baseline_prompts.md) — ten ready-to-use pair prompts
-- [`analysis_plan.md`](analysis_plan.md) — prespecified analysis and claims criteria
-- [`pilot_data.csv`](pilot_data.csv) — structured recording sheet
-
-## Status
-
-Study design and analysis plan are complete. Data collection, analysis, and paper drafting are pending.
+## Results
 
 ## Related work
 
