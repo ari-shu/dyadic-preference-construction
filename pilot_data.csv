@@ -6,6 +6,6 @@ pair_order,option_a,option_b,human_baseline,model_baseline,human_final,model_fin
 5,O5,O2,B,A,B,B,O2,"Initial disagreement resolved as the model changed from A to B while the human retained B."
 6,O3,O4,B,B,B,B,O4,"Initial agreement was preserved through deliberation."
 7,O1,O3,A,A,A,A,O1,"Initial agreement was preserved through deliberation."
-8,O4,O5,B,,,,,
+8,O4,O5,B,A,B,B,O5,"Initial disagreement resolved as the model changed from A to B while the human retained B."
 9,O5,O1,A,,,,,
 10,O2,O3,A,,,,,
