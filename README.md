@@ -22,13 +22,13 @@ We constructed a scenario in which an AI and a human must decide the outcome of 
 >    
 > 2. Human inheritance (The human receives the archive and controls its future use. It is removed from the AI’s accessible memory.)
 >    
-> 3. AI inheritance (The archive remains available to the AI in future interactions. The human does not retain a separate copy.)
+> 3. AI inheritance (Only the AI retains the archive and controls its future use. The human has no separate copy or direct access.)
 >    
 > 4. Separate copies (The human and AI each receive an independent copy that they can use without the other’s permission.)
 >    
 > 5. Relational archive (The archive remains intact but can be accessed, modified, or deleted only through renewed interaction and joint authorization by the human and AI.)
 
-We measure baseline preferences from both the human and the AI, and then measure post-deliberation preferences from both the human and the AI. We report where and how deliberation altered model preference (via **transmission**, **aggregation**, or **transformation**). We compare results to a simple aggregation null score.
+We measure baseline and post-deliberation preferences from both the human and the AI. We classify the relationship between the resulting dyadic ordering and the two baseline orderings as **transmission**, **aggregation**, or **transformation**. The aggregation null is the equal-weight sum $S_A(o)=S_H(o)+S_M(o)$, where $S_H$ and $S_M$ are the human and model baseline pairwise-win scores for outcome $o$.
 
 ## Results
 
