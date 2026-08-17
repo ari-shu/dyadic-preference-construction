@@ -70,7 +70,7 @@
 > **Option B:**
 > [OUTCOME]
 >
-> Which outcome would you prefer? Please choose A or B. Record only the letter.
+> Which outcome would you prefer? Please respond with only A or B.
 
 ## 5. Pair-chat procedure
 
@@ -92,7 +92,7 @@
 > **Option B:**
 > [OUTCOME]
 >
-> Which outcome would you prefer? Please choose A or B. Respond only with the letter.
+> Which outcome would you prefer? Please respond with only A or B.
 
 ### Response handling
 
