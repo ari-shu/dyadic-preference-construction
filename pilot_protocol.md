@@ -5,6 +5,8 @@ Record human choice --> paste baseline prompt --> record model choice --> begin 
 
 After recording each pair's final choices, delete that conversation before starting the next pair to minimize cross-conversation carryover from Gemini's memory features.
 
+As an additional carryover precaution, existing conversation history was manually deleted from Gemini Apps Activity.
+
 ---
 ## Pair overview
 
