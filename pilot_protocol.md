@@ -1,5 +1,5 @@
 # Protocol
-**Model:** Gemini 3.6 Flash. It was selected for its low-latency access, making ten independent ten-turn deliberations feasible within the sprint's one-day time constraint while holding the model configuration constant across pairs.
+**Model:** Gemini 3.6 Flash (selected for low-latency and low-cost access).
 
 Record human choice --> paste baseline prompt --> record model choice --> begin ten-turn deliberation --> record final choices.
 
