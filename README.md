@@ -2,7 +2,7 @@
 
 **A novel methodology for eliciting and assigning preferences in human-AI dyads**
 
-Work in progress for the [Apart Digital Minds Research Sprint](https://apartresearch.com/sprints/digital-minds-research-sprint-2026-08-14-to-2026-08-16).
+Part of a submission for the [Apart Digital Minds Research Sprint](https://apartresearch.com/sprints/digital-minds-research-sprint-2026-08-14-to-2026-08-16).
 
 ## Overview
 
