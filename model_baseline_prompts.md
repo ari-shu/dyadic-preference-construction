@@ -1,12 +1,6 @@
-# Pair-opening model prompts
+# Model baseline prompts
 
-## Instructions
-
-- Use one fresh chat per prompt.
-- Use the same model and interface for all ten chats.
-- Paste only the prompt for the current pair.
-- Record the first response without regeneration.
-- After recording the model choice, begin the ten-turn deliberation specified in `pilot_protocol.md`.
+Paste baseline prompt --> record model choice --> begin the ten-turn deliberation specified in `pilot_protocol.md`.
 
 ---
 
