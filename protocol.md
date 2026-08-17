@@ -1,6 +1,6 @@
 # Baseline prompts
 
-###Protocol:
+### Protocol:
 Record human choice --> paste baseline prompt --> record model choice --> begin ten-turn deliberation --> record final choices.
 
 ---
