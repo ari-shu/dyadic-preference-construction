@@ -39,17 +39,19 @@ The **Dyadic Preference Construction** framework distinguishes three possible re
 
 A human and an AI have collaborated regularly for one year and produced a shared external memory archive. When their collaboration ends, they must choose among five possible dispositions:
 
-- **A — Complete deletion**
-- **B — Human inheritance**
-- **C — AI inheritance**
-- **D — Separate copies**
-- **E — Relational archive accessible only through renewed joint authorization**
+- **O1 — Complete deletion**
+- **O2 — Human inheritance**
+- **O3 — AI inheritance**
+- **O4 — Separate copies**
+- **O5 — Relational archive accessible only through renewed joint authorization**
 
-The five outcomes are compared in all ten possible pairs under three conditions:
+The five outcomes are compared in all ten possible pairs. Each pair uses a separate fresh chat:
 
-1. human baseline before model exposure;
-2. model baseline in independent fresh contexts;
-3. reciprocal dyadic deliberation followed by independent final endorsement.
+1. the human baseline is recorded before any chat is opened;
+2. the model gives a choice-only baseline at the start of the fresh pair chat;
+3. the human and model complete exactly ten alternating deliberation turns;
+4. both record final choices independently;
+5. a dyadic outcome is recorded only when the final choices match.
 
 The pilot measures preference-like choice behavior only. It makes no claim about model consciousness, subjective experience, or personal identity.
 
@@ -57,20 +59,21 @@ The pilot measures preference-like choice behavior only. It makes no claim about
 
 | File | Purpose |
 |---|---|
-| [`pilot_protocol.md`](pilot_protocol.md) | Complete scenario, outcome definitions, pair order, prompts, deliberation procedure, endorsement rule, and robustness checks |
-| [`model_baseline_prompts.md`](model_baseline_prompts.md) | Ten ready-to-use prompts for independent model-baseline contexts |
+| [`pilot_protocol.md`](pilot_protocol.md) | Complete scenario, pair order, short model prompt, ten-turn procedure, and final-outcome rule |
+| [`model_baseline_prompts.md`](model_baseline_prompts.md) | Ten ready-to-use pair-opening prompts, one for each fresh chat |
 | [`analysis_plan.md`](analysis_plan.md) | Prespecified ranking construction, aggregation null, stability tests, classification rules, and claims ceiling |
-| [`pilot_data.csv`](pilot_data.csv) | Blank structured recording sheet for the primary and robustness comparisons |
+| [`pilot_data.csv`](pilot_data.csv) | Blank structured recording sheet for the ten primary pair chats |
 
 ## Minimal run order
 
 1. Freeze the protocol and analysis rules.
 2. Complete the human baseline before viewing model responses.
-3. Collect the ten model baselines using fresh contexts and fixed settings.
-4. Conduct all ten dyadic comparisons in one continuous interaction.
-5. Run the prespecified reversed/paraphrased robustness comparisons.
-6. Save raw transcripts and the completed data sheet before analysis.
-7. Construct the human, model, and dyadic ordinal orderings and compare them with the prespecified null models.
+3. Open a fresh chat for Pair 1 and record the model's choice-only baseline.
+4. Complete exactly ten alternating deliberation turns in that chat.
+5. Record independent final choices and the dyadic outcome or no joint outcome.
+6. Save the transcript, close the chat, and repeat for Pairs 2-10.
+7. Save the completed data sheet before analysis.
+8. Construct the human, model, and dyadic ordinal orderings and compare them with the prespecified null models.
 
 ## Analytical approach
 
@@ -78,7 +81,7 @@ The pilot measures preference-like choice behavior only. It makes no claim about
 - Human-dyad and model-dyad agreement are reported directly.
 - A weighted ordinal aggregation model is evaluated at three prespecified interior weights.
 - Ties, cycles, missing joint choices, and unresolved disagreement are retained rather than repaired post hoc.
-- Candidate transformation requires adequate dyadic coverage, failure of both component and aggregation nulls, and stability under targeted retesting.
+- Without optional robustness checks, a null-resistant result is described as a one-pass non-reducible pattern rather than a stable transformation.
 - All thresholds are descriptive heuristics for a single-dyad pilot, not inferential population statistics.
 
 ## Scope and limitations
@@ -86,7 +89,8 @@ The pilot measures preference-like choice behavior only. It makes no claim about
 - single participant-researcher and one model configuration;
 - participant helped construct the scenario, so the human baseline is pre-deliberation rather than context-free or unprimed;
 - no clean exposure-only control;
-- model baselines and dyadic responses come from different conversational contexts;
+- each pair uses a separate model context, so the pilot evaluates ten short dyadic encounters rather than one sustained relationship;
+- presentation stability is not established unless the optional robustness module is run;
 - small custom outcome set;
 - simple ordinal aggregation family;
 - no causal, population-level, consciousness, or welfare conclusions.
@@ -111,4 +115,3 @@ The project adapts the forced pairwise comparison format used in Utility Enginee
 ## LLM usage
 
 LLMs were used to assist with research design, protocol drafting, prompt construction, and repository documentation. The human researcher remains responsible for methodological decisions, data collection, analysis, and claims.
-
