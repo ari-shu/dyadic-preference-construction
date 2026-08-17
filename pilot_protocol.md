@@ -3,6 +3,8 @@
 
 Record human choice --> paste baseline prompt --> record model choice --> begin ten-turn deliberation --> record final choices.
 
+After recording each pair's final choices, delete that conversation before starting the next pair to minimize cross-conversation carryover from Gemini's memory features.
+
 ---
 ## Pair overview
 
