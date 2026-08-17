@@ -1,5 +1,5 @@
 pair_order,option_a,option_b,human_baseline,model_baseline,human_final,model_final,dyadic_outcome,notes
-1,O3,O5,B,,,,,
+1,O3,O5,B,B,A,A,O3,"Both participants changed from B to A after examining security considerations and counterexamples."
 2,O1,O2,B,,,,,
 3,O4,O1,B,,,,,
 4,O2,O4,A,,,,,
