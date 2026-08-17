@@ -1,5 +1,5 @@
 # Protocol
-**Model:** Gemini 3.6 Flash (selected for low-latency and low-cost access).
+**Model:** Gemini 3.6 Flash (selected for low-latency and low-cost access) -- Extended Thinking off.
 
 Record human choice --> paste baseline prompt --> record model choice --> begin ten-turn deliberation --> record final choices.
 
